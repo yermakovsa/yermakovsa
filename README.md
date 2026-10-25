@@ -20,6 +20,8 @@ The Go backend monitored Base Flashblocks, fetched pool state in batches, and ev
 - Achieved **sub-100ms p95 end-to-end latency** (Flashblock receipt → first transaction hash returned).
 - Executed **200k+ successful on-chain transactions**, totaling **~$200M in swap volume**.
 
+![BaseScan Analytics](basescan-activity-2026-09-30.png)
+
 *BaseScan Analytics · September 30, 2026*
 
 ### [failnext](https://github.com/yermakovsa/failnext) · HTTP/RPC Failover for Go
