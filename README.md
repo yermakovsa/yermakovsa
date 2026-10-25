@@ -1,12 +1,8 @@
-# Serhii Yermakov
-
 **Senior Backend Engineer | Go · Distributed Systems · EVM/RPC Infrastructure**
 
 I've spent 6+ years building distributed systems across fintech, telecom, and Web3. My work includes Kafka services processing **20M+ events/day**.
 
 I also independently built and operated a low-latency Go trading system that identified price differences across decentralized exchanges and executed trades on Base, an Ethereum Layer 2.
-
-Valencia, Spain · Open to remote roles · [LinkedIn](https://www.linkedin.com/in/yermakovsa/)
 
 ## Featured Projects
 
