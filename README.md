@@ -2,9 +2,7 @@
 
 I've spent 6+ years building distributed systems across fintech, telecom, and Web3, including Kafka-backed services processing **20M+ events/day**. I also independently built and operated a low-latency Go trading system on Base (an Ethereum Layer 2) that identified price differences between decentralized exchanges and executed trades.
 
-## Featured Projects
-
-### Low-Latency Trading Infrastructure on Base
+## Low-Latency Trading Infrastructure on Base
 
 *Independent production system · 2025–2026*
 
@@ -18,14 +16,10 @@ The Go backend monitored Base Flashblocks, fetched pool state in batches, and ev
 
 *BaseScan Analytics · September 30, 2026*
 
-### [failnext](https://github.com/yermakovsa/failnext) · HTTP/RPC Failover for Go
-
-`failnext` integrates with Go's standard `http.Client` without a separate proxy. It handles provider selection and cooldowns, while the application decides which requests may fail over, which providers to skip, and which provider to prefer for reads after a write.
-
 ## Distributed Systems in Production
 
 - Built Kafka-backed services processing **20M+ telecom events/day**, using batching and PostgreSQL transactions to atomically persist offsets, business state, and outbox events for replay-safe processing.
 - Built long-running financial workflows with Temporal, using idempotent payouts and compensating actions to handle failures.
 - Created a shared distributed tracing library adopted across **10+ services**.
 
-**Tech stack** Go · Java · REST/gRPC · Kafka · Temporal · PostgreSQL · Redis · AWS/GCP · Kubernetes · Terraform · go-ethereum · Solidity
+**Tech stack:** Go · Java · REST/gRPC · Kafka · Temporal · PostgreSQL · Redis · AWS/GCP · Kubernetes · Terraform · go-ethereum · Solidity
